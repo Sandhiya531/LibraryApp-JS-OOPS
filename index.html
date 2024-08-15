@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library App</title>
+    <link rel="stylesheet" href="./assets/style.css">
+
+</head>
+
+<body>    
+    <div class="input-container">
+        <h4>Book Library</h4>
+
+        <form name="bookForm" class="input-form">
+            <input type="text" id="bookTitle" placeholder="Book Title" class="input" required>
+            <input type="text" id="bookAuthor" placeholder="Book Author" class="input" required>
+            <button type="submit" class="submitBtn">Save </button>
+        </form>
+    </div>
+    
+    <!-- Added books section -->
+    <section class="input-container">
+        <h4>Added Books (<span id="bookCount">0</span>)</h4>
+        <ul id="renderedLibrary">
+        </ul>
+    </section>
+
+    <script src="./assets/js/Data/library.js"></script>
+    <script src="./assets/js/Data/book.js"></script>
+    <script src="./assets/js/main.js"></script>
+
+</body>
+
+</html>

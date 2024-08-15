@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(55 48 163);
+}
+
+.input-container {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: x-large;
+    max-width: 36rem;
+    margin: 10px auto 0; 
+}
+
+.input-container h4 {
+    margin-left: 10px;
+    margin-top: 0; 
+    margin-bottom: 10px; 
+}
+
+.input {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0 0 10px; 
+    border: 1px solid rgb(235, 225, 225);
+    border-radius: 4px;
+    background-color: rgb(243, 244, 246);
+}
+
+.submitBtn {
+    padding: 10px;
+    background-color: rgb(249, 115, 22);
+    border: 1px solid rgb(235, 225, 225);
+    border-radius: 10px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    width: 10%;
+    cursor: pointer;
+    margin: 10px 0 0 10px; 
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+.book-list {
+    background-color: rgb(255, 237, 213);
+    border-radius: 5px;
+    font-size: 18px;
+    list-style: none;
+    text-align: left;
+    padding: 10px; 
+    margin: 5px 0; 
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    color: white;
+    border: 1px solid rgb(235, 225, 225);  
+    border-radius: 5px;
+    padding: 5px;
+    
+}
+
+
